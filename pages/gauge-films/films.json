@@ -1,0 +1,1426 @@
+[
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "turn",
+  "src": "T3_turn.mp4",
+  "poster": "T3_turn.jpg",
+  "secs": 2.9,
+  "reading": "448 mm circle (worst grip x1)",
+  "clips": [
+   {
+    "outcome": 448.0921978211493
+   },
+   {}
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "h_up",
+  "src": "T3_h_up.mp4",
+  "poster": "T3_h_up.jpg",
+  "secs": 9.0,
+  "reading": "40\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 40,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 45,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "push",
+  "src": "T3_push.mp4",
+  "poster": "T3_push.jpg",
+  "secs": 4.0,
+  "reading": "2 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 2.0,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "kg": 2.5,
+    "outcome": "tipped",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "crest",
+  "src": "T3_crest.mp4",
+  "poster": "T3_crest.jpg",
+  "secs": 10.1,
+  "reading": "25\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 25,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 30,
+    "outcome": "stuck",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "h_up",
+  "src": "best_climb_h_up.mp4",
+  "poster": "best_climb_h_up.jpg",
+  "secs": 9.0,
+  "reading": "45\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 45,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 50,
+    "outcome": "stalled",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "push",
+  "src": "best_climb_push.mp4",
+  "poster": "best_climb_push.jpg",
+  "secs": 5.7,
+  "reading": "1 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 1.0,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "kg": 1.5,
+    "outcome": "rode up",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "crest",
+  "src": "best_climb_crest.mp4",
+  "poster": "best_climb_crest.jpg",
+  "secs": 8.1,
+  "reading": "25\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 25,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 30,
+    "outcome": "tipped",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "climb",
+  "src": "best_climb_climb.mp4",
+  "poster": "best_climb_climb.jpg",
+  "secs": 5.6,
+  "reading": "227 mm (pooled 90 % crossing, worst grip x1.5)",
+  "clips": [
+   {
+    "h": 225,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 250,
+    "outcome": "fail",
+    "found": true,
+    "seed": 0,
+    "n": 0
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "up",
+  "src": "best_climb_up.mp4",
+  "poster": "best_climb_up.jpg",
+  "secs": 13.5,
+  "reading": "82% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 1,
+    "outcome": "upright",
+    "rest": "left side",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 2,
+    "outcome": "left side",
+    "rest": "nose up",
+    "found": true,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "up",
+  "src": "T3_up.mp4",
+  "poster": "T3_up.jpg",
+  "secs": 6.4,
+  "reading": "100% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 1,
+    "outcome": "upright",
+    "rest": "left side",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 59,
+    "outcome": "upright",
+    "rest": "left side",
+    "found": false,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "climb",
+  "src": "T3_climb.mp4",
+  "poster": "T3_climb.jpg",
+  "secs": 5.6,
+  "reading": "151 mm (pooled 90 % crossing, worst grip x1.5)",
+  "clips": [
+   {
+    "h": 150,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 19
+   },
+   {
+    "h": 175,
+    "outcome": "fail",
+    "found": true,
+    "seed": 0,
+    "n": 0
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "h_down",
+  "src": "T3_h_down.mp4",
+  "poster": "T3_h_down.jpg",
+  "secs": 5.7,
+  "reading": "45\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 45,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 50,
+    "outcome": "slid",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "tow",
+  "src": "T3_tow.mp4",
+  "poster": "T3_tow.jpg",
+  "secs": 9.0,
+  "reading": "6 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 6.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 8.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "up",
+  "src": "best_all_up.mp4",
+  "poster": "best_all_up.jpg",
+  "secs": 10.7,
+  "reading": "78% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 1,
+    "outcome": "upright",
+    "rest": "left side",
+    "found": true,
+    "mu": 1.5
+   },
+   {
+    "seed": 5,
+    "outcome": "inverted",
+    "rest": "inverted",
+    "found": true,
+    "mu": 1.5
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "climb",
+  "src": "best_all_climb.mp4",
+  "poster": "best_all_climb.jpg",
+  "secs": 5.6,
+  "reading": "82 mm (pooled 90 % crossing, worst grip x1.5)",
+  "clips": [
+   {
+    "h": 80,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 90,
+    "outcome": "fail",
+    "found": true,
+    "seed": 1,
+    "n": 10
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "turn",
+  "src": "best_all_turn.mp4",
+  "poster": "best_all_turn.jpg",
+  "secs": 4.0,
+  "reading": "594 mm circle (worst grip x1)",
+  "clips": [
+   {
+    "outcome": 594.4187919112246
+   },
+   {}
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "h_up",
+  "src": "best_all_h_up.mp4",
+  "poster": "best_all_h_up.jpg",
+  "secs": 9.0,
+  "reading": "55\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 55,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 60,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "h_down",
+  "src": "best_all_h_down.mp4",
+  "poster": "best_all_h_down.jpg",
+  "secs": 5.1,
+  "reading": "60\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 60,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 65,
+    "outcome": "slid",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "crest",
+  "src": "best_all_crest.mp4",
+  "poster": "best_all_crest.jpg",
+  "secs": 9.1,
+  "reading": "35\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 35,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 40,
+    "outcome": "stuck, belly",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "push",
+  "src": "best_all_push.mp4",
+  "poster": "best_all_push.jpg",
+  "secs": 7.0,
+  "reading": "6 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 6.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 8.0,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "tow",
+  "src": "best_all_tow.mp4",
+  "poster": "best_all_tow.jpg",
+  "secs": 9.0,
+  "reading": "8 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 8.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 10.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "up",
+  "src": "front_1_up.mp4",
+  "poster": "front_1_up.jpg",
+  "secs": 12.1,
+  "reading": "91% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 0,
+    "outcome": "upright",
+    "rest": "nose down",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 7,
+    "outcome": "inverted",
+    "rest": "inverted",
+    "found": true,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "climb",
+  "src": "front_1_climb.mp4",
+  "poster": "front_1_climb.jpg",
+  "secs": 5.6,
+  "reading": "111 mm (pooled 90 % crossing, worst grip x0.65)",
+  "clips": [
+   {
+    "h": 110,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 120,
+    "outcome": "fail",
+    "found": true,
+    "seed": 2,
+    "n": 4
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "turn",
+  "src": "front_1_turn.mp4",
+  "poster": "front_1_turn.jpg",
+  "secs": 4.0,
+  "reading": "613 mm circle (worst grip x0.65)",
+  "clips": [
+   {
+    "outcome": 612.9258953030034
+   },
+   {}
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "h_up",
+  "src": "front_1_h_up.mp4",
+  "poster": "front_1_h_up.jpg",
+  "secs": 8.6,
+  "reading": "55\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 55,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 60,
+    "outcome": "tipped",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "h_down",
+  "src": "front_1_h_down.mp4",
+  "poster": "front_1_h_down.jpg",
+  "secs": 5.0,
+  "reading": "60\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 60,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 65,
+    "outcome": "slid",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "crest",
+  "src": "front_1_crest.mp4",
+  "poster": "front_1_crest.jpg",
+  "secs": 8.4,
+  "reading": "45\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 45,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 50,
+    "outcome": "stuck",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "push",
+  "src": "front_1_push.mp4",
+  "poster": "front_1_push.jpg",
+  "secs": 7.0,
+  "reading": "6 kg (worst grip x0.65)",
+  "clips": [
+   {
+    "kg": 6.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 8.0,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "tow",
+  "src": "front_1_tow.mp4",
+  "poster": "front_1_tow.jpg",
+  "secs": 9.0,
+  "reading": "6 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 6.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 8.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "turn",
+  "src": "best_climb_turn.mp4",
+  "poster": "best_climb_turn.jpg",
+  "secs": 2.6,
+  "reading": "778 mm circle (worst grip x1)",
+  "clips": [
+   {
+    "outcome": 778.1480329851415
+   },
+   {}
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "h_down",
+  "src": "best_climb_h_down.mp4",
+  "poster": "best_climb_h_down.jpg",
+  "secs": 5.1,
+  "reading": "50\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 50,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 55,
+    "outcome": "slid",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "tow",
+  "src": "best_climb_tow.mp4",
+  "poster": "best_climb_tow.jpg",
+  "secs": 9.0,
+  "reading": "5 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 5.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 6.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "up",
+  "src": "best_turn_up.mp4",
+  "poster": "best_turn_up.jpg",
+  "secs": 9.0,
+  "reading": "42% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 0,
+    "outcome": "upright",
+    "rest": "upright",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 2,
+    "outcome": "inverted",
+    "rest": "inverted",
+    "found": true,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "climb",
+  "src": "best_turn_climb.mp4",
+  "poster": "best_turn_climb.jpg",
+  "secs": 5.6,
+  "reading": "22 mm (pooled 90 % crossing, worst grip x0.65)",
+  "clips": [
+   {
+    "h": 20,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 30,
+    "outcome": "fail",
+    "found": true,
+    "seed": 4,
+    "n": 8
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "turn",
+  "src": "best_turn_turn.mp4",
+  "poster": "best_turn_turn.jpg",
+  "secs": 2.8,
+  "reading": "361 mm circle (worst grip x0.65)",
+  "clips": [
+   {
+    "outcome": 361.4189731534035
+   },
+   {}
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "h_up",
+  "src": "best_turn_h_up.mp4",
+  "poster": "best_turn_h_up.jpg",
+  "secs": 6.7,
+  "reading": "25\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 25,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 30,
+    "outcome": "tipped",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "h_down",
+  "src": "best_turn_h_down.mp4",
+  "poster": "best_turn_h_down.jpg",
+  "secs": 6.0,
+  "reading": "30\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 30,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 35,
+    "outcome": "tipped",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "crest",
+  "src": "best_turn_crest.mp4",
+  "poster": "best_turn_crest.jpg",
+  "secs": 8.9,
+  "reading": "20\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 20,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 25,
+    "outcome": "tipped",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "push",
+  "src": "best_turn_push.mp4",
+  "poster": "best_turn_push.jpg",
+  "secs": 7.0,
+  "reading": "2 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 2.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 2.5,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "tow",
+  "src": "best_turn_tow.mp4",
+  "poster": "best_turn_tow.jpg",
+  "secs": 9.0,
+  "reading": "5 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 5.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 6.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "up",
+  "src": "best_push_up.mp4",
+  "poster": "best_push_up.jpg",
+  "secs": 17.3,
+  "reading": "94% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 1,
+    "outcome": "upright",
+    "rest": "left side",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 5,
+    "outcome": "nose down",
+    "rest": "inverted",
+    "found": true,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "climb",
+  "src": "best_push_climb.mp4",
+  "poster": "best_push_climb.jpg",
+  "secs": 5.6,
+  "reading": "52 mm (pooled 90 % crossing, worst grip x0.65)",
+  "clips": [
+   {
+    "h": 50,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 19
+   },
+   {
+    "h": 60,
+    "outcome": "fail",
+    "found": true,
+    "seed": 0,
+    "n": 0
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "turn",
+  "src": "best_push_turn.mp4",
+  "poster": "best_push_turn.jpg",
+  "secs": 5.4,
+  "reading": "682 mm circle (worst grip x0.65)",
+  "clips": [
+   {
+    "outcome": 682.4988766403767
+   },
+   {}
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "h_up",
+  "src": "best_push_h_up.mp4",
+  "poster": "best_push_h_up.jpg",
+  "secs": 9.0,
+  "reading": "50\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 50,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 55,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "h_down",
+  "src": "best_push_h_down.mp4",
+  "poster": "best_push_h_down.jpg",
+  "secs": 5.2,
+  "reading": "60\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 60,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 65,
+    "outcome": "slid",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "crest",
+  "src": "best_push_crest.mp4",
+  "poster": "best_push_crest.jpg",
+  "secs": 10.2,
+  "reading": "25\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 25,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 30,
+    "outcome": "stuck",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "push",
+  "src": "best_push_push.mp4",
+  "poster": "best_push_push.jpg",
+  "secs": 7.0,
+  "reading": "10 kg (worst grip x0.65)",
+  "clips": [
+   {
+    "kg": 10.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 12.0,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "tow",
+  "src": "best_push_tow.mp4",
+  "poster": "best_push_tow.jpg",
+  "secs": 9.0,
+  "reading": "10 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 10.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 12.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "up",
+  "src": "best_up_up.mp4",
+  "poster": "best_up_up.jpg",
+  "secs": 15.3,
+  "reading": "98% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 3,
+    "outcome": "upright",
+    "rest": "inverted",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 59,
+    "outcome": "upright",
+    "rest": "upright",
+    "found": false,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "climb",
+  "src": "best_up_climb.mp4",
+  "poster": "best_up_climb.jpg",
+  "secs": 5.6,
+  "reading": "71 mm (pooled 90 % crossing, worst grip x0.65)",
+  "clips": [
+   {
+    "h": 70,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 80,
+    "outcome": "fail",
+    "found": true,
+    "seed": 3,
+    "n": 6
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "turn",
+  "src": "best_up_turn.mp4",
+  "poster": "best_up_turn.jpg",
+  "secs": 4.0,
+  "reading": "561 mm circle (worst grip x0.65)",
+  "clips": [
+   {
+    "outcome": 561.4720758655665
+   },
+   {}
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "h_up",
+  "src": "best_up_h_up.mp4",
+  "poster": "best_up_h_up.jpg",
+  "secs": 8.6,
+  "reading": "55\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 55,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 60,
+    "outcome": "tipped",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "h_down",
+  "src": "best_up_h_down.mp4",
+  "poster": "best_up_h_down.jpg",
+  "secs": 5.1,
+  "reading": "60\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 60,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 65,
+    "outcome": "slid",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "crest",
+  "src": "best_up_crest.mp4",
+  "poster": "best_up_crest.jpg",
+  "secs": 9.1,
+  "reading": "35\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 35,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 40,
+    "outcome": "stuck, belly",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "push",
+  "src": "best_up_push.mp4",
+  "poster": "best_up_push.jpg",
+  "secs": 7.0,
+  "reading": "6 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 6.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 8.0,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "tow",
+  "src": "best_up_tow.mp4",
+  "poster": "best_up_tow.jpg",
+  "secs": 9.0,
+  "reading": "8 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 8.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 10.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "up",
+  "src": "Box_up.mp4",
+  "poster": "Box_up.jpg",
+  "secs": 9.0,
+  "reading": "64% of 200 falls end upright (worst grip)",
+  "clips": [
+   {
+    "seed": 0,
+    "outcome": "upright",
+    "rest": "upright",
+    "found": true,
+    "mu": 0.65
+   },
+   {
+    "seed": 2,
+    "outcome": "left side",
+    "rest": "left side",
+    "found": true,
+    "mu": 0.65
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "climb",
+  "src": "Box_climb.mp4",
+  "poster": "Box_climb.jpg",
+  "secs": 5.6,
+  "reading": "31 mm (pooled 90 % crossing, worst grip x0.65)",
+  "clips": [
+   {
+    "h": 30,
+    "outcome": "on top",
+    "found": true,
+    "seed": 0,
+    "n": 20
+   },
+   {
+    "h": 40,
+    "outcome": "fail",
+    "found": true,
+    "seed": 0,
+    "n": 0
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "turn",
+  "src": "Box_turn.mp4",
+  "poster": "Box_turn.jpg",
+  "secs": 2.3,
+  "reading": "594 mm circle (worst grip x1.5)",
+  "clips": [
+   {
+    "outcome": 593.6121182401102
+   },
+   {}
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "h_up",
+  "src": "Box_h_up.mp4",
+  "poster": "Box_h_up.jpg",
+  "secs": 9.0,
+  "reading": "45\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 45,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 50,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "h_down",
+  "src": "Box_h_down.mp4",
+  "poster": "Box_h_down.jpg",
+  "secs": 5.4,
+  "reading": "45\u00b0 (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 45,
+    "outcome": "ok",
+    "found": true,
+    "back": true
+   },
+   {
+    "deg": 50,
+    "outcome": "slid",
+    "found": true,
+    "back": true
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "crest",
+  "src": "Box_crest.mp4",
+  "poster": "Box_crest.jpg",
+  "secs": 13.5,
+  "reading": "15\u00b0 planks (5\u00b0 rungs, grip x2.5)",
+  "clips": [
+   {
+    "deg": 15,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "deg": 20,
+    "outcome": "stuck, belly",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "push",
+  "src": "Box_push.mp4",
+  "poster": "Box_push.jpg",
+  "secs": 7.0,
+  "reading": "2 kg (worst grip x1.5)",
+  "clips": [
+   {
+    "kg": 2.0,
+    "outcome": "ok",
+    "found": true,
+    "back": false
+   },
+   {
+    "kg": 2.5,
+    "outcome": "stalled",
+    "found": true,
+    "back": false
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "tow",
+  "src": "Box_tow.mp4",
+  "poster": "Box_tow.jpg",
+  "secs": 9.0,
+  "reading": "4 kg (quick: 6 tries a rung at x1)",
+  "clips": [
+   {
+    "kg": 4.0,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "kg": 5.0,
+    "outcome": "stalled",
+    "found": true
+   }
+  ]
+ }
+]
