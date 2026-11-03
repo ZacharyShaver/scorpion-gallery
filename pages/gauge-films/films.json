@@ -1422,5 +1422,173 @@
     "found": true
    }
   ]
+ },
+ {
+  "key": "T3",
+  "label": "T3 (real build)",
+  "test": "rough",
+  "src": "T3_rough.mp4",
+  "poster": "T3_rough.jpg",
+  "secs": 12.9,
+  "reading": "46 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 40,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 50,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best all",
+  "label": "Best all-rounder",
+  "test": "rough",
+  "src": "best_all_rough.mp4",
+  "poster": "best_all_rough.jpg",
+  "secs": 11.8,
+  "reading": "36 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 30,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 40,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "front 1",
+  "label": "Front 1",
+  "test": "rough",
+  "src": "front_1_rough.mp4",
+  "poster": "front_1_rough.jpg",
+  "secs": 13.0,
+  "reading": "64 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 60,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 80,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best climb",
+  "label": "Best climber",
+  "test": "rough",
+  "src": "best_climb_rough.mp4",
+  "poster": "best_climb_rough.jpg",
+  "secs": 13.0,
+  "reading": "86 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 80,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 100,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best turn",
+  "label": "Best turner",
+  "test": "rough",
+  "src": "best_turn_rough.mp4",
+  "poster": "best_turn_rough.jpg",
+  "secs": 10.0,
+  "reading": "36 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 30,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 40,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best push",
+  "label": "Best pusher",
+  "test": "rough",
+  "src": "best_push_rough.mp4",
+  "poster": "best_push_rough.jpg",
+  "secs": 6.8,
+  "reading": "46 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 40,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 50,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "best up",
+  "label": "Most upright",
+  "test": "rough",
+  "src": "best_up_rough.mp4",
+  "poster": "best_up_rough.jpg",
+  "secs": 6.7,
+  "reading": "32 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 30,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 40,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
+ },
+ {
+  "key": "Box",
+  "label": "Box (baseline)",
+  "test": "rough",
+  "src": "Box_rough.mp4",
+  "poster": "Box_rough.jpg",
+  "secs": 7.9,
+  "reading": "33 mm (quick: 6 tries a rung at x2.5)",
+  "clips": [
+   {
+    "mm": 30,
+    "outcome": "ok",
+    "found": true
+   },
+   {
+    "mm": 40,
+    "outcome": "stuck",
+    "found": true
+   }
+  ]
  }
 ]
